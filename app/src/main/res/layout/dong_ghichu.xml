@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:text="ten cong viec"
+        android:textColor="#00695C"
+        android:textSize="24sp" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgEdit"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:src="@drawable/edit" />-->
+    <ImageView
+        android:id="@+id/imgdelete"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/delete" />
+
+
+
+</LinearLayout>
